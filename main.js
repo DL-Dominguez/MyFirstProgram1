@@ -9,10 +9,10 @@ var MyFirstProgram1 = /** @class */ (function () {
         console.log(argArray);
     };
     MyFirstProgram1.prototype.runFirst = function (callback) {
-        console.log('this method runs first');
+        console.log('this method runs first!');
     };
     MyFirstProgram1.prototype.runLast = function () {
-        console.log('this method runs last');
+        console.log('this method runs last!');
     };
     return MyFirstProgram1;
 }());
